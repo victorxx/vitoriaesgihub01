@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notícias Capixabas: Vila Velha, Serra e Guarapari</title>
+  <meta name="description" content="Últimas notícias de Vila Velha, Serra e Guarapari. Segurança, saúde, eventos, concursos e mais. Atualizado diariamente." />
+  <meta name="keywords" content="notícias, Vila Velha, Serra, Guarapari, Espírito Santo, jornal capixaba, notícias atualizadas" />
+  <meta name="author" content="Seu Nome" />
+
+  <style>
+    /* 🔤 Estilo geral */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    /* 🔝 Propagandas fixas no topo */
+    .propagandas-fixas-topo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: red;
+      z-index: 9999;
+    }
+
+    .propagandas-fixas-topo div {
+      padding: 10px;
+      color: yellow;
+      text-align: center;
+      font-weight: bold;
+      animation: piscar 200s infinite;
+    }
+
+    .propagandas-fixas-topo a {
+      color: yellow;
+      text-decoration: underline;
+    }
+
+    /* Animação piscante */
+    @keyframes piscar {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* Espaço para as propagandas fixas */
+    header {
+      background-color: #002b5c;
+      color: white;
+      padding: 80px 20px 20px; /* espaço extra no topo */
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004080;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    .noticia {
+      margin-bottom: 15px;
+    }
+
+    .noticia a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .noticia a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #002b5c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .propagandas-fixas-topo div {
+        font-size: 14px;
+        padding: 8px;
+      }
+
+      header {
+        padding-top: 100px; /* ainda mais espaço para o topo fixo */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔝 Propagandas fixas no topo -->
+  <div class="propagandas-fixas-topo">
+    <div>
+      🛒 <a href="https://victorxx.github.io/topico02/" target="_blank">CONFERIR A OPORTUNIDADE</a>
+    </div>
+    <div>
+      💰 <a href="https://geocredibnkvitoria.com/" target="_blank">CRÉDITO PESSOAL? CLIQUE AQUI</a>
+    </div>
+    <div>
+      🚨 <a href="https://victorxx.github.io/diadia2/" target="_blank">DIA A DIA: CONFIRA AGORA</a>
+    </div>
+  </div>
+
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1>Notícias Capixabas</h1>
+    <p>Atualizações de Vila Velha, Serra e Guarapari</p>
+  </header>
+
+  <!-- Navegação -->
+  <nav>
+    <a href="#vilavelha">Vila Velha</a>
+    <a href="#serra">Serra</a>
+    <a href="#guarapari">Guarapari</a>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <section id="vilavelha">
+      <h2>📰 Vila Velha</h2>
+      <div class="noticia">
+        🔫 <a href="https://www.agazeta.com.br/" target="_blank">Confronto em festa termina com suspeito baleado</a>
+      </div>
+      <div class="noticia">
+        👶 <a href="https://www.agazeta.com.br/" target="_blank">Mãe presa por abandonar bebê ferido em casa</a>
+      </div>
+      <div class="noticia">
+        🏃‍♀️ <a href="https://folhavilavelha.com.br/" target="_blank">Corrida de rua fecha vias em Itaparica</a>
+      </div>
+      <div class="noticia">
+        💉 <a href="https://folhavilavelha.com.br/" target="_blank">Vacinação ampliada neste sábado em Vila Velha</a>
+      </div>
+    </section>
+
+    <section id="serra">
+      <h2>📰 Serra</h2>
+      <div class="noticia">
+        🚑 <a href="https://www.agazeta.com.br/" target="_blank">Adolescente baleada ao sair da igreja tem alta</a>
+      </div>
+      <div class="noticia">
+        🛑 <a href="https://www.portaltemponovo.com.br/" target="_blank">Mudanças no trânsito em Feu Rosa e Novo Horizonte</a>
+      </div>
+      <div class="noticia">
+        📄 <a href="https://www.portaltemponovo.com.br/" target="_blank">Concurso com 600 vagas e salário de R$ 5.388</a>
+      </div>
+      <div class="noticia">
+        🚓 <a href="https://serranoticiario.com.br/" target="_blank">“Operação Zero Grau” prende líder de desmanche</a>
+      </div>
+    </section>
+
+    <section id="guarapari">
+      <h2>📰 Guarapari</h2>
+      <div class="noticia">
+        🦭 <a href="https://www.agazeta.com.br/" target="_blank">Lobo-marinho ferido é resgatado em praia</a>
+      </div>
+      <div class="noticia">
+        🏖️ <a href="https://www.folhaonline.es/" target="_blank">Revitalização da orla de Meaípe até novembro</a>
+      </div>
+      <div class="noticia">
+        🏥 <a href="https://www.folhaonline.es/" target="_blank">Hospital Geral de Guarapari ultrapassa 30 mil atendimentos</a>
+      </div>
+      <div class="noticia">
+        🏀 <a href="https://www.folhaonline.es/" target="_blank">Seleção Brasileira de Basquete treinará no Sesc</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; Notícias Capixabas. Desenvolvido por Você.</p>
+  </footer>
+
+</body>
+</html>
